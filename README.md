@@ -20,8 +20,9 @@ What to note down:
 Use the `BLANK_README.md` to get started.
 
 ## Showcase a simple Architecture diagram
+<!-- setup a link to your images folder -->
 <a href="https://github.com/lawrencemuema/Cloud_project02">
-    <img src="images/fargate_arch.png" alt="Logo" width="80" height="80">
+    <img src="images/fargate_arch.png" alt="Logo" width="auto" height="150">
   </a>
 
 
