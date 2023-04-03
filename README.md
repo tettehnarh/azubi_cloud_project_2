@@ -20,6 +20,9 @@ What to note down:
 Use the `BLANK_README.md` to get started.
 
 ## Showcase a simple Architecture diagram
+<a href="https://github.com/lawrencemuema/Cloud_project02">
+    <img src="images/fargate_arch.png" alt="Logo" width="80" height="80">
+  </a>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
