@@ -21,7 +21,7 @@ Use the `BLANK_README.md` to get started.
 
 ## Showcase a simple Architecture diagram
 <!-- setup a link to your images folder -->
-<a href="">
+<a href="[https://github.com/lawrencemuema/Cloud_project02](https://github.com/lawrencemuema/Cloud_project02/blob/main/images/fargate_arch.png)">
     <img src="images/fargate_arch.png" alt="Logo" width="auto" height="150">
 </a>
 
