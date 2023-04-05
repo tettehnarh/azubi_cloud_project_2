@@ -24,10 +24,12 @@ I was able to work with:
 ### Project Overview
 ```sh
    Todo and technologies
-```
 1. Use AWS s3 (cloud storage service)
 2. Upload your files to AWS s3
 3. Launch a sample webapp
+
+```
+
 ##
 ```sh
    1. Creating an s3 bucket through the AWS console
