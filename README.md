@@ -25,21 +25,24 @@ I was able to work with:
  4. Sampson Boamah [@their_linkedin](https://www.linkedin.com/in/sampson-boamah-b3629a114/)
 
 ### Project problems
-   ```1. Creating an s3 bucket through the AWS console
+   ```sh
+   1. Creating an s3 bucket through the AWS console
    ```
 You need to have a an AWS account, you can get a freetire account which basically means you get a free 1 year to use some AWS resources. In our case, we have that setup and we will be using the s3 service.
 * Go to the s3 service
 * click on "create bucket" :  a bucket is where we will put our files.
 * click on "objects" : obejects are files that can go into the bucket.
 
-   ```2. Setup Website hosting for S3
+   ```sh
+   2. Setup Website hosting for S3
    ```
 Webhosting is what allows o a webfile to be served to the internet. AWS offers a free option to host a static website (static is something that doesnt use data from a database).
 * Go to your s3 bucket
 * Go to the properties tab
 * Scroll down to Static Web Hosting and enable this.
 
-   ```3. Launch your website on s3
+   ```sh
+   3. Launch your website on s3
    ```
 We have a bucket and its now hosting ready, all we need to do is add our files and we can access the site.
 * Go to your s3 bucket and upload "objects". these are your webfiles from your computer
