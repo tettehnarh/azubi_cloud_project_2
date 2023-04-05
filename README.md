@@ -1,5 +1,3 @@
-# Cloud_project02
- This is a cloud project for Azubi Africa trainees. It focuses on working with dynamo dB, docker and terraform. 
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
 
@@ -8,12 +6,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-There are many great README templates available on GitHub; We will use this to document everything that we did in this project
+There are many great README templates available on GitHub; We will use this to document everything that we did in this project. some other resources are: [joshseven](https://github.com/joshseven/Cloud-portfolio), 
 
 What to note down:
 * Did you work with anyone, note that
-* What was the problem you were trying to tackle
-* how did you go about finding your solution
+* What was the problem you were trying to tackle & how did you go about finding your solution
 * any challenges you faced and how did you solve them
 
 ### Collaborations
@@ -23,27 +20,27 @@ I was able to work with:
  2. Esther Awudu [@their_linkedin](https://www.linkedin.com/in/esther-awudu-33690320b/)
  3. Thelma Laryea [@their_linkedin](https://www.linkedin.com/in/thelma-laryea-73a49b1b4/)
  4. Sampson Boamah [@their_linkedin](https://www.linkedin.com/in/sampson-boamah-b3629a114/)
-
+##
 ### Project problems
-   ```sh
+```sh
    1. Creating an s3 bucket through the AWS console
-   ```
+```
 You need to have a an AWS account, you can get a freetire account which basically means you get a free 1 year to use some AWS resources. In our case, we have that setup and we will be using the s3 service.
 * Go to the s3 service
 * click on "create bucket" :  a bucket is where we will put our files.
 * click on "objects" : obejects are files that can go into the bucket.
-
-   ```sh
+##
+```sh
    2. Setup Website hosting for S3
-   ```
+```
 Webhosting is what allows o a webfile to be served to the internet. AWS offers a free option to host a static website (static is something that doesnt use data from a database).
 * Go to your s3 bucket
 * Go to the properties tab
 * Scroll down to Static Web Hosting and enable this.
-
-   ```sh
+##
+```sh
    3. Launch your website on s3
-   ```
+```
 We have a bucket and its now hosting ready, all we need to do is add our files and we can access the site.
 * Go to your s3 bucket and upload "objects". these are your webfiles from your computer
 * Go to the s3 bucket properties tab
