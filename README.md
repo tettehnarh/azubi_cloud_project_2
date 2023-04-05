@@ -16,6 +16,14 @@ What to note down:
 * how did you go about finding your solution
 * any challenges you faced and how did you solve them
 
+### Collaborations
+This is a hand-on cloud engineering project delivered by the azubi africa cloud team in 2023. After 6 months of AWS cloud training and front-end development, we got a chance to work on some realife cloud projects. 
+I was able to work with:
+ 1. William Mukoyani [@your_linkedin](https://www.linkedin.com/in/william-j-mukoyani)
+ 2. Esther Awudu [@your_linkedin](https://www.linkedin.com/in/esther-awudu-33690320b/)
+ 3. Thelma Laryea [@your_linkedin](https://www.linkedin.com/in/thelma-laryea-73a49b1b4/)
+ 4. Sampson Boamah [@your_linkedin](https://www.linkedin.com/in/sampson-boamah-b3629a114/)
+
 
 Use the `BLANK_README.md` to get started.
 
@@ -52,15 +60,6 @@ _Below is an example of how you can instruct your audience on installing and set
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- CONTACT -->
