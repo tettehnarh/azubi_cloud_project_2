@@ -21,7 +21,14 @@ I was able to work with:
  3. Thelma Laryea [@their_linkedin](https://www.linkedin.com/in/thelma-laryea-73a49b1b4/)
  4. Sampson Boamah [@their_linkedin](https://www.linkedin.com/in/sampson-boamah-b3629a114/)
 ##
-### Project problems
+### Project Overview
+```sh
+   Todo and technologies
+```
+1. Use AWS s3 (cloud storage service)
+2. Upload your files to AWS s3
+3. Launch a sample webapp
+##
 ```sh
    1. Creating an s3 bucket through the AWS console
 ```
