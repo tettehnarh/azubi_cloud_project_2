@@ -8,15 +8,15 @@ This is a hand-on cloud engineering project delivered by the Azubi Africa Cloud 
 The team members below made this project successful :
 
 1.  Joseph W Wafula [@their_linkedin]()
-2.  Kevin Rwema [@their_linkedin](https://www.linkedin.com/in/kevin-rwema/)
-3.  Moses Boriowo [@their_linkedin](https://www.linkedin.com/in/moses-boriowo/)
+2.  Kevin Rwema [@kevin-rwema](https://www.linkedin.com/in/kevin-rwema/)
+3.  Moses Boriowo [@moses-boriowo](https://www.linkedin.com/in/moses-boriowo/)
 4.  Leonard Agyenim Boateng [@their_linkedin]()
-5.  Mamadou Amadou Kebe [@their_linkedin](https://www.linkedin.com/in/mamadou-ammadou-kebe-994aa95a/)
+5.  Mamadou Amadou Kebe [@mamadou-ammadou-kebe-994aa95a](https://www.linkedin.com/in/mamadou-ammadou-kebe-994aa95a/)
 6.  Iraguha Benjamin[@their_linkedin]()
 7.  Kennedy Manda [@their_linkedin]()
-8.  Michael Theuri Munyori [@their_linkedin](https://www.linkedin.com/in/michael-munyori/)
+8.  Michael Theuri Munyori [@michael-munyori](https://www.linkedin.com/in/michael-munyori/)
 9.  Tabitha Mutiso [@their_linkedin]()
-10. Leslie Narh [@their_linkedin](https://www.linkedin.com/in/leslienarh/)
+10. Leslie Narh [@leslienarh](https://www.linkedin.com/in/leslienarh/)
 
 ## Technologies and tools used
 
