@@ -81,45 +81,53 @@ Getting Started
 3. Update the php block in guestlist.php with below script
 
 ```php
-<?php
-      // Include the AWS SDK for PHP library
-      require 'vendor/autoload.php';
-      use Aws\DynamoDb\DynamoDbClient;
-      use Aws\Common\Aws;
+   <?php
+            // Set up AWS SDK for PHP
+            require 'vendor/autoload.php';
+            use Aws\DynamoDb\DynamoDbClient;
+            use Aws\DynamoDb\Exception\DynamoDbException;
+            use Aws\Common\Aws;
 
-      // Instantiate a new DynamoDB Client
-      $client = DynamoDbClient::factory(
-        array(
-          'profile' => '<profile in your aws credentials file>',
-          'region' => '<aws region name>',
-          'version' => 'latest',
-        )
-      );
+            // Set up the client
+            $client = DynamoDbClient::factory(
+                array(
+                    'profile' => 'default',
+                    'region' => 'us-east-1',
+                    'version' => '2012-08-10',
+                )
+            );
 
-      // Define the table name
-      $tableName = "GuestBook";
+            $tableName = "GuestBook";
 
-      $result = $client->scan([
-        'TableName' => $tableName
-      ]);
+            $tableRows = '';
 
-      $items = $result['Items'];
+            // Try to retrieve table items to check if there's a connection
+            try {
+                $result = $client->scan([
+                    'TableName' => $tableName
+                ]);
+                $items = $result['Items'];
+            } catch (DynamoDbException $e) {
+                // If there's an error, show an error message in a table row that spans 3 columns
+                header('HTTP/1.1 500 Internal Server Error');
+                $tableRows = '<tr><td colspan="3" style="color:red;text-align:center;">
+                                Error connecting to DynamoDB:<br> ' . $e->getMessage() . '</td></tr>';
+                echo $tableRows;
+                exit();
+            }
 
-      // Define variable to hold table rows
-      $tableRows = '';
+            // If there's no error, continue with your code here
+            foreach ($items as $item) {
+                $email = $item['Email']['S'];
+                $country = $item['Country']['S'];
+                $name = $item['Name']['S'];
+                $tableRows .= '<tr>' .
+                    '<td>' . $name . '</td>' .
+                    '<td>' . $email . '</td>' .
+                    '<td>' . $country . '</td>' .
+                    '</tr>';
+            }
 
-      // Loop through the items and extract the data
-      foreach ($items as $item) {
-        $email = $item['Email']['S'];
-        $country = $item['Country']['S'];
-        $name = $item['Name']['S'];
-        $tableRows .= '<tr>' .
-          '<td>' . $name . '</td>' .
-          '<td>' . $email . '</td>' .
-          '<td>' . $country . '</td>' .
-          '</tr>';
-      }
-
-      echo $tableRows;
-?>
+            echo $tableRows;
+            ?>
 ```
